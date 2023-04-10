@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sanity/sanity-php": "^1.5"
+    }
+}

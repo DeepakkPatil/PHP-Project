@@ -1,0 +1,365 @@
+body, html{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.px{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.my{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    }
+
+.mb{
+    margin-bottom: 75px; 
+}
+
+.mt{
+    margin-top: 75px; 
+}
+.pb{
+    padding-bottom: 50px; 
+}
+
+.pt{
+   padding-top: 50px; 
+}
+
+
+/* Introduction section - 1
+==================================================*/
+#PortalIntroduction {
+    padding: 150px 0;
+    /* padding-top: 200px; */
+    /* background: #020202; */
+   
+    height: 400px;
+   }
+
+   .p-intro-bg{
+    background-image:url("../img/Portal/P-intro.png") ;
+    width: 100vW;
+    object-fit: cover;
+    /* display: flex; */
+    
+    /* overflow: hidden;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%; */
+    background-repeat: round;
+    background-size: cover;
+   }
+
+   .row{
+    padding: 50px 0;
+   }
+   .intr-txt >h1{
+    font-size: 80px;
+   }
+
+      /* About - Story section - 2
+==================================================*/
+
+   .stry >p{
+    padding-top: 15px;
+    font-size: 55px;
+    /* letter-spacing: 2px; */
+   }
+   .para-text{
+    padding-top: 40px;
+    font-size: 18px;
+    color: #959595;
+    line-height: 30px;
+   }
+
+   .para-text2{
+    padding-top: 20px;
+    font-size: 18px;
+    color: #959595;
+    line-height: 30px;
+   }
+
+   
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 32px 64px;
+    border-radius: 8px;
+    border: 1px solid rgba(54, 54, 59, 0.6);
+    background:#121212;
+    position: relative;
+    /* necessary to hide gradient outside of link */
+    overflow: hidden;
+  }
+  
+  
+
+        /* Theme & ideation - Story section - 3
+==================================================*/
+
+
+.design-inspo{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+   }
+
+   .idea-box{
+    padding: 35px;
+    border-radius: 15px;
+    background-color: #121212;
+   }
+
+   .idea-box >h2{
+    font-size: 40px;
+   }
+
+    /* Product Process section -4
+==================================================*/
+
+.proces-title{
+    line-height: 65px;
+    
+}
+
+
+ /* Discovery  section -5
+==================================================*/
+.discovery{
+    background-color: #121212; 
+}
+
+.discovery-box1{
+    background-color: #EAB86E;
+    padding: 30px;
+    border-radius: 15px;
+
+}
+.discovery-box2{
+    background-color: #E06F98; 
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.discovery-box1 >h2 {
+    font-size: 40px;
+   }
+   .discovery-box2 >h2{
+    font-size: 40px;
+   }
+.dis-height{
+    height: 300px;
+}
+
+ /* Abstraction section -6
+==================================================*/
+.abstraction-box{
+    margin-left: 80px;
+    }
+   .abstraction-box  >h2{
+    font-size: 40px;}
+
+               
+    .brainstorm{
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     height: 435px;
+     width: 100%;
+    }
+
+
+    /* Creation section -7
+==================================================*/
+
+.proces-title2{
+    margin-right: 50px;
+    }
+
+
+    .struggle{
+        padding-left: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 435px;
+    width: 100%;
+    margin-left: 30px;
+    }
+
+    .creation-box1{
+        background-color: #5344FF;
+        padding: 30px;
+        border-radius: 15px;
+    
+    }
+    .creation-box2{
+        background-color: #5CD083; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .creation-box3{
+        background-color: #F4C071; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+
+    .creation-box4{
+        background-color: #9c3bc8; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+    
+    .creation-box5{
+        background-color: #b22d5d; 
+        padding: 30px;
+        border-radius: 15px;
+    }
+    
+    .creation-box1 >h2, .creation-box2 >h2, .creation-box3 >h2,
+    .creation-box4 >h2, .creation-box5 >h2 {
+        font-size: 40px;
+       }
+     
+  
+            /* thoughts& Process Section-8
+==================================================*/
+
+.thoughts{
+    
+    /* padding-left: 64px; */
+   padding-right: 70px;
+    height: auto;
+    width: 88%;
+    /* margin-left: -82px; */
+    object-fit: contain;
+
+}
+
+/* whatelse section -9
+==================================================*/
+
+.wire-frame-2{
+    margin-top: 30px;
+   }
+
+    /* Showcase section -10
+==================================================*/
+   
+ /* Takeaways section -11
+==================================================*/
+
+.takeaway-box{
+    padding: 35px;
+    border-radius: 15px;
+    background-image: url("../img/Portal/cardBG2a.png");
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    background-repeat: round;
+   }
+
+   /* next project -12
+==================================================*/
+.next-project{
+    text-decoration: none;
+   }
+
+   .next-project:hover{
+    text-decoration: underline;
+   }
+  
+  
+    @media screen and (max-width: 800px){
+    .row{
+        padding: 15px 0;
+       } 
+
+    .stry >p{
+        padding-top: 5px;
+        font-size: 30px;
+       }
+    .intr-txt >h1{
+        font-size: 50px;
+       }
+       .intr-txt >p{
+        font-size: 26px;
+       }
+       .para-text{
+        padding-top: 25px;
+        font-size: 18px;
+        color: #959595;
+        line-height: 30px;
+       }
+       .idea-box >h2{
+        font-size: 32px;
+        line-height: 40px;
+       }
+
+       .idea-box,.discovery-box1, .discovery-box2 .creation-box1, .creation-box2,
+       .creation-box3, .creation-box4, .creation-box5, .wire-frame{
+        margin-top: 30px;
+       }
+
+       .wire-frame-2{
+        margin-top: 0px;
+       }
+       
+       .product-process{
+        margin-top: 64px;
+       }
+
+       .proces-title{
+        line-height: 40px;
+        }
+        .proces-title2{
+        margin-right: 0px;
+        }
+
+        .discovery-box1 >h2, .discovery-box2 >h2 {
+        font-size: 30px;
+        }
+       
+
+       .dis-height{
+        height: auto;
+        }
+
+       .abstraction-box{
+        margin-left: 0px;
+        }
+
+       .brainstorm{
+        padding-left: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: auto;
+        width: 100%;
+        }
+
+        .struggle{
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            height: auto;
+            width: 100%;
+            margin-left: 0px;}
+
+            .creation-box1 >h2, .creation-box2 >h2, .creation-box3 >h2,
+            .creation-box4 >h2, .creation-box5 >h2 {
+                font-size: 30px;
+               }
+              
+               .thoughts{
+    
+                /* padding-left: 64px; */
+                padding-right: 0px;
+                height: auto;
+                width: 100%;
+                margin-left: 0px;
+                object-fit: contain;
+            }
+    
+        }
