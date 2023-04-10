@@ -163,9 +163,7 @@
                 $posts=$jsonProjects ;
                 $num_posts = count($posts);
                 ?>
-             <?php for ($i = 1; $i < $num_posts ; $i++): if ($i == 3) {
-                continue;
-              }?>
+             <?php for ($i = $num_posts-1; $i >=0 ; $i--): ?>
                          
              <div data-aos="fade-up" style='margin-top: 20px;'>
 
